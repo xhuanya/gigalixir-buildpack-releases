@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 # 
 # is this ever actually used?
-echo "release"
+
 cat <<EOF
 ---
 addons:
   []
 default_process_types:
-  web: "/app/Run"
+  web: /app/run start
 EOF
+
