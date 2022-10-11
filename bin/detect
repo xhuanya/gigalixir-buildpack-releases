@@ -2,6 +2,7 @@
 
   echo "Core Releases"
   echo $1
+  cd /tmp
   echo "=================files=============="
   echo $(du)
   echo "=================files=============="
