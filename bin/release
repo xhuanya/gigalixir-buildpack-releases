@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # 
 # is this ever actually used?
-
+echo "release"
 cat <<EOF
 ---
 addons:
   []
 default_process_types:
-  web: /app/bin/$GIGALIXIR_APP_NAME start
+  web: /app/Run start
 EOF
 
