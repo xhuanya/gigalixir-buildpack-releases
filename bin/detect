@@ -1,13 +1,8 @@
 #!/usr/bin/env bash
 
   echo "Core Releases"
-  echo $1
-  cd /tmp
-  echo "=================files=============="
+  echo $3
+  cd $3
   echo $(du)
-  echo "=================eeeeeeefiles=============="
-  cd /app
-  echo $(du)
-  echo "=================dddddddddddfile=============="
-  
+ 
 
