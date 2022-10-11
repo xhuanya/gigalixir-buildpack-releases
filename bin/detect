@@ -5,5 +5,9 @@
   cd /tmp
   echo "=================files=============="
   echo $(du)
-  echo "=================files=============="
+  echo "=================eeeeeeefiles=============="
+  cd /app
+  echo $(du)
+  echo "=================dddddddddddfile=============="
+  
 
