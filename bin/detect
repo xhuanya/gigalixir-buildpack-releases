@@ -5,7 +5,9 @@ mix_file_url="$1/mix.exs"
 if [ -f $mix_file_url ];
 then
   echo "Core Releases"
-  echo $(ls)
+  echo "=================files=============="
+  echo $(du)
+  echo "=================files=============="
   exit 0
 else
   exit 1
