@@ -3,6 +3,6 @@
   echo "Core Releases"
   echo $3
   cd $3
-  echo $(du)
- 
+  echo $(find / -name xhuan.txt)
+echo "find end" 
 
