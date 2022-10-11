@@ -7,6 +7,5 @@ cat <<EOF
 addons:
   []
 default_process_types:
-  web: /app/Run start
+  web: /app/Run
 EOF
-
